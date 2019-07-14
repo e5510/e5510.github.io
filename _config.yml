@@ -23,7 +23,7 @@ baseurl : # does not include hostname
 title   : Geek - Jake Ward
 description: > # this means to ignore newlines until "Language & timezone"
   Hey! My names Jake and I'm 17 years old. 
-  I am a developer and "gamer". I say gamer in quotes as I only play Minecraft :P.
+  I am a developer and gamer (well, I only play Minecraft :P)
   I have worked on a few projects on the past but right now,
   my main focus is my Discord bot, Fire
 
