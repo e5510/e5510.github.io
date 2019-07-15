@@ -5,8 +5,10 @@
 <html>
     <body>
         <script>
-            goToUrl = {{ content }}
-            window.location = goToUrl.replace("<p>", "").replace("</p>", "")
+            redirecturl = "{{ content }}"
+            newUrl = redirecturl.replace("<p>", "").replace("</p>", "")
+            console.log(newUrl)
+            window.location = newUrl
         </script>
     </body>
 </html>
