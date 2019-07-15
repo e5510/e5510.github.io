@@ -5,10 +5,10 @@
 <html>
     <body>
         <script>
-            redirecturl = "{{ content }}"
-            newUrl = redirecturl.replace("<p>", "").replace("</p>", "")
-            console.log(newUrl)
-            window.location = newUrl
+            redirecturl = `{{ content }}"`;
+            newUrl = redirecturl.replace("<p>", "").replace("</p>", "").replace("\n", "");
+            console.log(newUrl);
+            window.location = newUrl;
         </script>
     </body>
 </html>
