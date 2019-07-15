@@ -1,4 +1,4 @@
 ---
 layout: redirect
-goToUrl: https://patreon.com/FireBot
 ---
+https://patreon.com/FireBot
