@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gaminggeek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gaminggeek.club
+  * I am gaminggeek (https://keybase.io/gaminggeek) on keybase.
+  * I have a public key ASBiarLNtqQ_NA6Ex10wRNUnembyDhgUJ48FzC-yc7ZEqgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120626ab2cdb6a43f340e84c75d3044d5277a66f20e1814278f05cc2fb273b644aa0a",
+      "host": "keybase.io",
+      "kid": "0120626ab2cdb6a43f340e84c75d3044d5277a66f20e1814278f05cc2fb273b644aa0a",
+      "uid": "4929d2e3276e3bd860fa3ea5cfbe8419",
+      "username": "gaminggeek"
+    },
+    "merkle_root": {
+      "ctime": 1552087261,
+      "hash": "a20e3790f07356c885030ff00d1781315871a9a509b6b6b6deee0b654fcb1c09c154b680d064965741d4eabc9defe635cff0b7f605160cdc85d917fcd7c1a3ad",
+      "hash_meta": "cde850f3222e23b9af558730a41943bb6617fadb042d6846c1ff9904a6e25b42",
+      "seqno": 4906113
+    },
+    "service": {
+      "entropy": "8AmrleDQFyV0YWbC4An4sm6/",
+      "hostname": "gaminggeek.club",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.0"
+  },
+  "ctime": 1552087279,
+  "expire_in": 504576000,
+  "prev": "3b6004f017dd42c570fdc9a3f3bbdd1d146b81b92a0f12b0f034adaf4d28d5f9",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYmqyzbakPzQOhMddMETVJ3pm8g4YFCePBcwvsnO2RKoKp3BheWxvYWTESpcCB8QgO2AE8BfdQsVw/cmj87vdHRRrgbkqDxKw8DStr00o1fnEIAAjhvZw2XG51xa4PB0T97Hs3nRfgsGmmrTLQVh7KKzWAgHCo3NpZ8RADYqJBja/yhGB1ah0PtxXs2qFWvR54DivDE2cLKSNs7Y2/khAo7pA36hotRfy9BqKkPerF7XfKi84nNYdBeWtCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL/lPeQm8cf8aRygsi4syDJeO8kBijOCYPMGu37fvmWyo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gaminggeek
+
+==================================================================
