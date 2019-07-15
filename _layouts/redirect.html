@@ -3,6 +3,18 @@
 
 <!doctype html>
 <html>
+    <head>
+        <meta name="description" content="{{ page.ogpDescription }}">
+        <meta name="theme-color" content="#{{ page.ogpTheme }}">
+        <meta property="og:title" content="{{ page.ogpTitle }}">
+        <meta property="og:site_name" content="{{ page.ogpSitename }}">
+        <meta property="og:image" content="{{ page.ogpImage }}">
+        <meta property="og:url" content="{{ page.ogpUrl }}">
+        <meta property="og:description" content="{{ page.ogpDescription }}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="{{ page.ogpTitle }}">
+        <meta property="twitter:description" content="{{ page.ogpDescription }}">
+    </head>
     <body>
         <script>
             redirecturl = `{{ content }}`;
