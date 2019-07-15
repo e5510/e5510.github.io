@@ -4,14 +4,13 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="canonical" href="{ page.redirecturl }">
+        <link rel="canonical" href="{ page.urltoredirectto }">
     </head>
     <body>
         <script>
-            redirecturl = `{{ content }}`;
-            newUrl = redirecturl.replace("<p>", "").replace("</p>", "").replace("\n", "");
-            console.log(newUrl);
-            window.location = newUrl;
+            redirecturl = '{ page.urltoredirectto }';
+            console.log(redirecturl);
+            window.location = redirecturl;
         </script>
     </body>
 </html>

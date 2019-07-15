@@ -1,4 +1,4 @@
 ---
 layout: redirect
+urltoredirectto: https://discord.gg/mKDWeSA/
 ---
-https://discord.gg/mKDWeSA
