@@ -8,7 +8,6 @@
             redirecturl = `{{ content }}`;
             newUrl = redirecturl.replace("<p>", "").replace("</p>", "").replace("\n", "");
             console.log(newUrl);
-            console.log({ page.url });
             console.log({{ page.url }});
             window.location = newUrl;
         </script>
