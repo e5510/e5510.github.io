@@ -3,12 +3,14 @@
 
 <!doctype html>
 <html>
+    <head>
+        <link rel="canonical" href="{ page.redirecturl }">
+    </head>
     <body>
         <script>
             redirecturl = `{{ content }}`;
             newUrl = redirecturl.replace("<p>", "").replace("</p>", "").replace("\n", "");
             console.log(newUrl);
-            console.log({{ page.redirecturl }});
             window.location = newUrl;
         </script>
     </body>
