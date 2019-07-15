@@ -224,9 +224,9 @@ collections:
   redirects:
     defaults:
       - scope:
-        type: redirects
-      values:
-        layout: redirect
+          type: redirects
+        values:
+          layout: redirect
 
 ## => Plugins
 ##############################
