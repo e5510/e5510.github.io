@@ -218,6 +218,16 @@ defaults:
       pageview: true
 
 
+## => Collections
+##############################
+collections:
+  redirects:
+    defaults:
+      - scope:
+        type: redirects
+      values:
+        layout: redirect
+
 ## => Plugins
 ##############################
 plugins:
