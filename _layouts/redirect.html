@@ -17,9 +17,9 @@
     </head>
     <body>
         <script>
-            newUrl = {{ content }}.replace("<p>", "").replace("</p>", "").replace("\n", "")
+            newUrl = `{{ content }}`.replace("<p>", "").replace("</p>", "").replace("\n", "")
             console.log(newUrl);
-            window.location = newUrl;
+            window.location = decodeURI(newUrl);
         </script>
     </body>
 </html>
