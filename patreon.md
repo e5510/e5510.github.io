@@ -7,4 +7,3 @@ ogpSitename: Patreon
 ogpDescription: Become a patron of GamingGeek today. Read posts by GamingGeek and get access to exclusive content and experiences on the world’s largest membership platform for artists and creators.
 ogpTheme: F96854
 ---
-https://patreon.com/FireBot

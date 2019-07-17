@@ -7,4 +7,3 @@ ogpSitename: Fire was made by Geek#2628
 ogpImage: https://cdn.discordapp.com/avatars/444871677176709141/459ec29946068de169e1324015280f4f.png?size=1024
 ogpTheme: FF5100
 ---
-https://discordapp.com/oauth2/authorize?client_id=444871677176709141&permissions=8&scope=bot

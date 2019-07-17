@@ -17,9 +17,7 @@
     </head>
     <body>
         <script>
-            newUrl = `{{ content }}`.replace("<p>", "").replace("</p>", "").replace("\n", "").replace(/&amp;/g, '&');
-            console.log(newUrl);
-            window.location = decodeURI(newUrl);
+            window.location = '{{ page.ogpUrl }}'
         </script>
     </body>
 </html>
