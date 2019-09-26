@@ -3,10 +3,10 @@ layout: article
 title: Fire - Commands List
 mode: default
 header:
-  theme: light
+  theme: dark
 article_header:
   type: overlay
-  theme: light
+  theme: dark
   background_color: '#FF5A00'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(255,83,0,0.4), rgba(255,147,0,0.4))'
