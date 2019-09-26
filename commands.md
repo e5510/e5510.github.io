@@ -104,3 +104,58 @@ Name | Description | Usage | Aliases
 settings | Run through my setup process to configure a few settings | `$settings` | setup
 setlogs | Set a channel for logging | `$setlogs <channel>` | None
 
+MODERATION COMMANDS
+=================
+
+Name | Description | Usage | Aliases
+---- | ----------- | ----- | -------
+ban | Ban a user from the server | `$ban <user> [<reason>]` | banish
+softban | Bans a user, deletes messages from a specified amount of days and then unbans. | `$softban <user> <amount of days: 1-7> [<reason>]` | None
+mute | Mute a user. | `$mute <user> [<time> <reason>]` Time format: 1d 2h 3m 4s == 1 day, 2 hours, 3 minutes and 4 seconds | silence, tempmute
+unmute | Unmute a muted user. | `$unmute <user>` | None
+kick | Kick a user. | `$kick <user> [<reason>]` | None
+block | Mute a user in the current channel. | `$block <user> [<reason>]` | None
+unblock | Unmute a user who has been blocked in the current channel. | `$unblock <user> [<reason>]` | None
+
+INFO COMMANDS
+=================
+###### The info command consists of different "subcommands", which are listed below.
+
+Name | Description | Usage | Aliases
+---- | ----------- | ----- | -------
+user | Get a general overview of a user | `$info user <user>` | None
+role | Get a general overview of a role | `$info role <role>` | None
+guild | Get a general overview of the guild | `$info guild` | server
+
+UTILITY COMMANDS
+=================
+
+Name | Description | Usage
+---- | ----------- | -----
+purge | Bulk delete messages | `$purge <amount> [<user>]`
+snipe | Get the last deleted message | `$snipe [<channel|user>]`
+esnipe | Get the last edited message | `$esnipe [<channel|user>]`
+quote | Quote a message from an id or url | `$quote <message id|message url>`
+http.cat | Got a HTTP Error Code? My cat knows what it means. | `$http.cat <error code>`
+avatar | Get a user's avatar | `$avatar [<user>]`
+fireav | Turns your avatar info the Fire logo | `$fireav [<user>]`
+tempmention | Make a role mentionable for 60 seconds or until you mention it | `$tempmention <role>`
+vanityurl | Creates a vanity invite for your Discord using https://oh-my-god.wtf/ | `$vanityurl [<code>|"disable"]`
+fetchchannel | Fetch a channel's info (Returns JSON) | `$fetchchannel <channel>`
+fetchmsg | Fetch a message from its id or link (Returns JSON) | `$fetchmsg <message id|message url>`
+fetchuser | Find a user from their id (Returns JSON) | `$fetchuser <id>`
+fetchactivity | Get a member's activities (Returns JSON) | `$fetchactivity [<member>]`
+tts | Make Google TTS say something! | `$tts <text>`
+
+PREMIUM COMMANDS
+=================
+###### You can get Fire Premium by [Clicking Here](https://gaminggeek.dev/patreon) and donating
+
+Name | Description | Usage
+---- | ----------- | -----
+autorole | Automatically add a role to a user when they join | `$autorole [<role name/id/mention>]` Use command without role argument to disable
+reactrole | Automatically add a role to a user when they react to a message | `$autorole [<role name/id/mention> <message id> <emote>]` Use command without arguments to disable
+addrank | Add a role that users can join through the rank command. | `$addrank <role>`
+delrank | Remove a rank from the list of joinable roles. | `$delrank <role>`
+rank | List all available ranks and join a rank | `$rank [<rank>]`
+rolepersist | Add a role that will stay with the user, even if they leave and rejoin. | `$rolepersist <member> <role>`
