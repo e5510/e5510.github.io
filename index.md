@@ -15,11 +15,13 @@ article_header:
 
 ```python
 from jekyll import Blog
+from githubpages import hostname, scheme
 
 class Website():
   def __init__(self):
-    self.hostname = 'https://gaminggeek.dev' #.dev is the best TLD
-    self.pages = ['/', '/blog.html']
+    self.hostname = hostname('gaminggeek.dev') #.dev is the best TLD
+    self.scheme = scheme('https')
+    self.pages = ['/', '/blog.html', '/commands']
     self.blog = Blog()
 ```
 
@@ -34,5 +36,5 @@ I've worked on quite a few projects in the past. Here's a few...
 Name | Description
 -----| ----------
 Fire (Active) |  A Discord bot for all! With many features such as music, moderation and even Google Assistant, Fire is the only bot you need. [Website](https://fire.gaminggeek.dev/)
-YouTube (Active) | My YouTube channel consists of a wide variety of content... Just kidding! It's mostly Minecraft (as that's the only game I play) but I'm starting to upload a bit more coding content too [Check it out](https://youtube.com/GamingGeek)
+YouTube (Semi-Active) | My YouTube channel consists of a wide variety of content... Just kidding! It's mostly Minecraft (as that's the only game I play) but I'm starting to upload a bit more coding content too [Check it out](https://youtube.com/GamingGeek)
 SpectralMC (Gone but not forgotten) | SpectralMC was my Minecraft server I used to work on hoping it would be the **next big thing** but I never really released it. I just had a "beta" period. It was at this time that I used [Skript](https://github.com/SkriptLang/Skript) to "code" plugins
