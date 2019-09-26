@@ -146,6 +146,7 @@ fetchmsg | Fetch a message from its id or link (Returns JSON) | `$fetchmsg <mess
 fetchuser | Find a user from their id (Returns JSON) | `$fetchuser <id>`
 fetchactivity | Get a member's activities (Returns JSON) | `$fetchactivity [<member>]`
 tts | Make Google TTS say something! | `$tts <text>`
+gassist | Talk to the Google Assistant | `$gassist <query>`
 
 PREMIUM COMMANDS
 =================
