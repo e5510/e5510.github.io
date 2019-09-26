@@ -3,31 +3,44 @@ layout: article
 title: Jake Ward - Python developer
 mode: immersive
 header:
-  theme: dark
+	theme: dark
 article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: /assets/cover.png
+	type: overlay
+	theme: dark
+	background_color: '#203028'
+	background_image:
+		gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+		src: /assets/cover.png
 ---
 
 ```python
 from jekyll import Blog
-from githubpages import hostname, scheme
+from githubpages import Pages
+from site.pages, import root, commands
 
 class Website():
-  def __init__(self):
-    self.hostname = hostname('gaminggeek.dev') #.dev is the best TLD
-    self.scheme = scheme('https')
-    self.pages = ['/', '/blog.html', '/commands']
-    self.blog = Blog()
+	def __init__(self):
+		self.hostname = 'gaminggeek.dev' #.dev is the best TLD
+		self.protocol = 'https'
+		self.blog = Blog()
+		self.pages = Pages()
+
+	@self.pages('/')
+	def rootpage(self):
+		return root
+
+	@self.pages('/blog')
+	def blogpage(self):
+		return self.blog
+
+	@self.pages('/commands')
+	def cmdspage(self):
+		return commands
 ```
 
 ## Who Am I
 
-Hey, I'm Jake o/ I'm a 17 year old student and Python developer (if you couldn't already tell from the Python snippet above) from Ireland.
+Hey, I'm Jake o/ I'm a 17 year old student and Python developer (if you couldn't already tell from the fake Python snippet above) from Ireland.
 
 ## Projects
 
