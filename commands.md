@@ -29,3 +29,17 @@ warm | warm something up | `$warm <something>` | None
 cowsay | Cow goes moo (or whatever really) | `$cowsay <text>` | None
 ascii | Make ASCII text | `$ascii <text>` | None
 👏 | Emphasise your text with clapping | `$clap <text>` | clap
+
+HYPIXEL
+==============
+##### All of these examples use the default prefix, `$`
+
+###### The Hypixel command consists of different "subcommands", which are listed below.
+
+Name | Description | Usage
+---- | ----------- | -----
+key | See my API key usage | `$hypixel key`
+watchdog | See watchdog stats, usually broadcasted every 2 hours on the server | `$hypixel watchdog` 
+player | Get a general overview of a player | `$hypixel <player>`
+guild | Get a general overview of a player's guild & members | `$hypixel <player> guild`
+friends | Get a general overview of a player's friends | `$hypixel <player> friends`
