@@ -13,10 +13,10 @@ article_header:
     src: /assets/firecover.png
 ---
 
-MAIN COMMANDS
-==============
 ##### All of these examples use the default prefix, `$`
 
+MAIN COMMANDS
+==============
 
 Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
@@ -32,8 +32,6 @@ ascii | Make ASCII text | `$ascii <text>` | None
 
 HYPIXEL
 ==============
-##### All of these examples use the default prefix, `$`
-
 ###### The Hypixel command consists of different "subcommands", which are listed below.
 
 Name | Description | Usage
