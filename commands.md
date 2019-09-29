@@ -84,7 +84,7 @@ MUSIC COMMANDS
 Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
 connect | Connect to a voice channel | `$connect <channel>` | join
-play | Queue a song or playlist for playback. | `$play <search query|url>` | sing
+play | Queue a song or playlist for playback. | `$play <search query|url>` | sing, p
 np | Sends the music controller message which contains various information about the current and upcoming songs. | `$np` | now_playing, current, currentsong
 pause | Pause the currently playing song. | `$pause` | None
 resume | Resume a currently paused song. | `$resume` | None
