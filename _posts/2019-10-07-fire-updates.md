@@ -8,17 +8,19 @@ Hey, it's been a while since I've posted here so I thought I'd let you know abou
 ## What's new? (Since September 3rd 2019)
 
 **Temporary Role Mentions**
+
 With Fire, you can now make a role mentionable temporarily. It will wait for you to send a message or for 60 seconds to go by and it will disable the role mention
 
 > $tempmention <role>
 
 **Vanity URLs**
+
 Fire can now make an awesome Vanity URL for your Discord server! It uses my domain, `oh-my-god.wtf` with a custom invite code, e.g. 
 https://oh-my-god.wtf/geek or https://oh-my-god.wtf/dot
 
 > $vanityurl <code> (type `disable` as the code to disable it)
 
-__**Vanity URLs will be heavily monitored! Any URLs that are deemed not suitable will be removed. Any abuse of Vanity URLs will result in being blacklisted from Fire**__
+__Vanity URLs will be heavily monitored! Any URLs that are deemed not suitable will be removed. Any abuse of Vanity URLs will result in being blacklisted from Fire__
 
 **Warnings**
 
