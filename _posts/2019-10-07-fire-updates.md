@@ -26,10 +26,10 @@ __Vanity URLs will be heavily monitored! Any URLs that are deemed not suitable w
 
 The latest feature added to Fire's moderation module is warnings, a long awaited feature. You can warn someone for their naughty behaviour, list moderation logs (warns, mutes, kicks, bans etc.), clear all warnings for a user and clear a **single warning** unlike some other bots *cough* Dyno *cough*
 
-> $warn <user> <reason>
-> $modlogs <user>
-> $clearwarns <user>
-> $clearwarn <case id>
+> `$warn <user> <reason>`
+> `$modlogs <user>`
+> `$clearwarns <user>`
+> `$clearwarn <case id>`
 
 ## New Logo 
 
