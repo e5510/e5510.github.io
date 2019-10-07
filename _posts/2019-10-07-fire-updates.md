@@ -33,7 +33,7 @@ The latest feature added to Fire's moderation module is warnings, a long awaited
 
 ## New Logo 
 
-Thanks to [laemongrass](https://twitter.com/laemongrass_), Fire has a new logo!
+Thanks to [laemongrass](https://github.com/laemongrass), Fire has a new logo!
 
 ![Inner Gradient (Normal Bot)](https://cdn.discordapp.com/avatars/444871677176709141/4bafec4cf070f01ddf4a5428947813e6.webp?size=256)
 ![Outer Gradient (Dev Bot)](https://cdn.discordapp.com/avatars/627625765227462656/3ef2cef7e86fd17e2c9a21fd7776e5ea.webp?size=256)
