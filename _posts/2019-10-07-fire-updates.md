@@ -3,9 +3,9 @@ layout: article
 title: Fire Updates
 ---
 
-Hey, it's been a while since I've posted here so I thought I'd let you know about some updates to Fire!
+Hey, it's been a while since I've posted here so I thought I'd let you know about some updates to Fire! 
 
-## What's new? (Since September 3rd 2019)
+## What's new? (Since September 3rd 2019) 
 
 **Temporary Role Mentions**
 
@@ -31,14 +31,14 @@ The latest feature added to Fire's moderation module is warnings, a long awaited
 > $clearwarns <user>
 > $clearwarn <case id>
 
-## New Logo
+## New Logo 
 
 Thanks to [laemongrass](https://twitter.com/laemongrass_), Fire has a new logo!
 
 ![Inner Gradient (Normal Bot)](https://cdn.discordapp.com/avatars/444871677176709141/4bafec4cf070f01ddf4a5428947813e6.webp?size=256)
 ![Outer Gradient (Dev Bot)](https://cdn.discordapp.com/avatars/627625765227462656/3ef2cef7e86fd17e2c9a21fd7776e5ea.webp?size=256)
 
-## Anything else?
+## Anything else? 
 
 Nope, that's about it for now. If you have any features, don't hesitate to [Email Me](mailto:geek@gaminggeek.dev) or leave it in [#suggestions](https://discordapp.com/channels/564052798044504084/564069043431014403/) in the official [Fire Discord](https://gaminggeek.dev/discord)
 
