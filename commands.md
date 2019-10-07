@@ -106,10 +106,12 @@ setlogs | Set a channel for logging | `$setlogs <channel>` | None
 
 MODERATION COMMANDS
 =================
+###### Users with the `Manage Messages` permission are considered moderators and can use these commands. Be careful who you give this permission to
 
 Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
 ban | Ban a user from the server | `$ban <user> [<reason>]` | banish
+unban | Unban a user from the server | `$unban <user> [<reason>]` | unbanish
 softban | Bans a user, deletes messages from a specified amount of days and then unbans. | `$softban <user> <amount of days: 1-7> [<reason>]` | None
 mute | Mute a user. | `$mute <user> [<time> <reason>]` Time format: 1d 2h 3m 4s == 1 day, 2 hours, 3 minutes and 4 seconds | silence, tempmute
 unmute | Unmute a muted user. | `$unmute <user>` | None

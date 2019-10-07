@@ -1,9 +1,9 @@
 ---
 layout: redirect
-ogpTitle: Join the Geek's Discord Discord Server!
+ogpTitle: Join the Fire Discord Server!
 ogpUrl: https://discordapp.com/invite/mKDWeSA
-ogpDescription: Check out the Geek's Discord community on Discord and enjoy free voice and text chat.
+ogpDescription: Check out the Fire community on Discord and enjoy free voice and text chat.
 ogpSitename: Discord
-ogpImage: https://cdn.discordapp.com/icons/564052798044504084/f516b1989ce976912a1ed3e9a9559e4c.jpg?size=512
+ogpImage: https://cdn.discordapp.com/icons/564052798044504084/4bafec4cf070f01ddf4a5428947813e6.png?size=512
 ogpTheme: 7289DA
 ---
