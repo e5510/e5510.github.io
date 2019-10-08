@@ -49,7 +49,7 @@ Name | Description | Usage | Requirements
 ---- | ----------- | ----- | ------------
 meme | Get a random meme | `$meme [<subreddit>]` | None
 image | Get an image from a tag | `$image <tag>` | None
-tags | Get a list of tags (for the above command) | `$tags` | None
+imagetags | Get a list of tags (for the above command) | `$imagetags` | None
 baninfo | Get info about a ban on KSoft.Si | `$baninfo <user id>` | Be in the [KSoft.Si Discord](https://discord.gg/kEf6qXN)
 
 SK1ER COMMANDS
@@ -133,6 +133,17 @@ Name | Description | Usage | Aliases
 user | Get a general overview of a user | `$info user <user>` | None
 role | Get a general overview of a role | `$info role <role>` | None
 guild | Get a general overview of the guild | `$info guild` | server
+
+TAG COMMANDS
+=================
+###### The tag command consists of different "subcommands", which are listed below.
+###### Notes: Tag names are only one word. The 'dtag' alias will delete your message when viewing a tag
+
+Name | Description | Usage | Aliases | Permission
+---- | ----------- | ----- | ------- | ----------
+tag | See a list of all tags or view a tag | `$tag [<tag name>]` | dtag, tags | None
+create | Create a new tag | `$tag create <name> <content>` | tags create, dtag create | Manage Messages
+guild | Delete a tag | `$tag delete <name>` | tags delete, dtag delete | Manage Messages
 
 UTILITY COMMANDS
 =================
