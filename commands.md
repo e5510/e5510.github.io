@@ -72,6 +72,7 @@ player purchases | Check a player's purchases | `$hyperium <player> purchases`
 YOUTUBE COMMANDS
 =================
 ###### The YT command consists of different "subcommands", which are listed below.
+###### UPDATE: As of 10th October 2019, this command has been disabled temporarily. There's no ETA for it's return
 
 Name | Description | Usage
 ---- | ----------- | -----
