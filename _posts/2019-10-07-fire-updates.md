@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Fire Updates
+category: Fire
 ---
 
 Hey, it's been a while since I've posted here so I thought I'd let you know about some updates to Fire! 
