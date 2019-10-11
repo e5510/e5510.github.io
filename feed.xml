@@ -7,7 +7,7 @@ layout: none
 <title type="text">{{ site.title }}</title>
 <subtitle type="text">{{ site.tagline }}</subtitle>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<atom:link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
+<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
 <link rel="alternate" type="text/html" href="{{ site.url }}" />
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>{{ site.url }}/</id>
@@ -23,10 +23,10 @@ layout: none
 <link>{{ site.url }}{{ post.url }}</link>
 <category><![CDATA[ {{ post.categoryz }} ]]></category>
 <id>{{ site.url }}{{ post.id }}</id>
-{% if post.modified %}<atom:updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</atom:updated>
+{% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
 <published>{{ post.date | date_to_xmlschema }}</published>
 {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
-<atom:updated>{{ post.date | date_to_xmlschema }}</atom:updated>{% endif %}
+<updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
 <author>
 <name>{{ site.owner.name }}</name>
 <uri>{{ site.url }}</uri>
@@ -37,7 +37,7 @@ layout: none
     <title>Fire</title>
     <link>https://fire.gaminggeek.dev/</link>
   </image>
-<content:encoded><![CDATA[{{ post.content | xml_escape }}]]></content:encoded>
+<content><![CDATA[{{ post.content | xml_escape }}]]></content>
 </item>
 {% endfor %}
  </feed>
