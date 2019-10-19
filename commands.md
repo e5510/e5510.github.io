@@ -155,6 +155,7 @@ UTILITY COMMANDS
 
 Name | Description | Usage
 ---- | ----------- | -----
+dstatus | Get Discord's status (Made with help from [ravy](https://ravy.xyz)) | `$dstatus`
 purge | Bulk delete messages | `$purge <amount> [<user>]`
 snipe | Get the last deleted message | `$snipe [<channel|user>]`
 esnipe | Get the last edited message | `$esnipe [<channel|user>]`
