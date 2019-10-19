@@ -38,6 +38,7 @@ Name | Description | Usage
 ---- | ----------- | -----
 key | See my API key usage | `$hypixel key`
 watchdog | See watchdog stats, usually broadcasted every 2 hours on the server | `$hypixel watchdog` 
+skyblock | See SkyBlock news (profiles are a work in progress) | `$hypixel skyblock [<news>]`
 player | Get a general overview of a player | `$hypixel <player>`
 guild | Get a general overview of a player's guild & members | `$hypixel <player> guild`
 friends | Get a general overview of a player's friends | `$hypixel <player> friends`
@@ -48,6 +49,7 @@ KSoft.Si COMMANDS
 Name | Description | Usage | Requirements
 ---- | ----------- | ----- | ------------
 meme | Get a random meme | `$meme [<subreddit>]` | None
+lyrics | Get the lyrics for a song (Provide a member to search for their current song on Spotify) | `$lyrics [<query|member>]` | None
 image | Get an image from a tag | `$image <tag>` | None
 imagetags | Get a list of tags (for the above command) | `$imagetags` | None
 baninfo | Get info about a ban on KSoft.Si | `$baninfo <user id>` | Be in the [KSoft.Si Discord](https://discord.gg/kEf6qXN)
@@ -104,6 +106,8 @@ Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
 settings | Run through my setup process to configure a few settings | `$settings` | setup
 setlogs | Set a channel for logging | `$setlogs <channel>` | None
+modonly | Set channels to restrict commands for moderators | `$modonly [<**channels>]` | None
+adminonly | Set channels to restrict commands for admins | `$modonly [<**channels>]` | None
 
 MODERATION COMMANDS
 =================
