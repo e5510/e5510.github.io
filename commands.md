@@ -104,7 +104,8 @@ IMAGE GEN COMMANDS
 
 Name | Description | Usage
 ---- | ----------- | -----
-makeameme | Make your own meme using the "top text, bottom text" format | `$makeameme <image url> <top text>|<bottom text>`
+makeameme | Make your own meme using the "top text, bottom text" format | `$makeameme <member|image url> <top text>|<bottom text>`
+deepfry | Deepfry an image or your avatar (your avatar is used if no argument is provided) | `$deepfry [<member|image url>]`
 
 SETTINGS COMMANDS
 =================
