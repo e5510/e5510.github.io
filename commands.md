@@ -99,6 +99,13 @@ shuffle | Shuffle the current queue. | `$shuffle` | mix
 repeat | Repeat the currently playing song. | `$repeat` | None
 seteq | Pick from one of the equalizer presets to change your music. | `$seteq <Flat|Boost|Metal|Piano>` | None
 
+IMAGE GEN COMMANDS
+=================
+
+Name | Description | Usage
+---- | ----------- | -----
+makeameme | Make your own meme using the "top text, bottom text" format | `$makeameme <image url> <top text>|<bottom text>`
+
 SETTINGS COMMANDS
 =================
 
