@@ -123,17 +123,17 @@ MODERATION COMMANDS
 
 Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
-ban | Ban a user from the server | `$ban <user> [<reason>]` | banish, begone, gtfo
+ban | Ban a user from the server | `$ban <user> [<reason>]` | banish, begone, gtfo, 410
 unban | Unban a user from the server | `$unban <user> [<reason>]` | unbanish
 softban | Bans a user, deletes messages from a specified amount of days and then unbans. | `$softban <user> <amount of days: 1-7> [<reason>]` | None
-mute | Mute a user. | `$mute <user> [<time> <reason>]` Time format: 1d 2h 3m 4s == 1 day, 2 hours, 3 minutes and 4 seconds | silence, tempmute
+mute | Mute a user. | `$mute <user> [<time> <reason>]` Time format: 1d 2h 3m 4s == 1 day, 2 hours, 3 minutes and 4 seconds | silence, tempmute, 403
 unmute | Unmute a muted user. | `$unmute <user>` | None
 warn | Warn a user. | `$warn <user> <reason>` | None
 warnings | View warnings for a user | `$warnings <user>` | None
 clearwarns | Clear a users warnings | `$clearwarns <user>` | clearwarnings
 clearwarn | Clear a single warning | `$clearwarn <case id>` | clearwarning
 modlogs | View moderation logs for a user | `$modlogs <user>` | None
-kick | Kick a user. | `$kick <user> [<reason>]` | yeet
+kick | Kick a user. | `$kick <user> [<reason>]` | yeet, 409
 block | Mute a user in the current channel. | `$block <user> [<reason>]` | None
 unblock | Unmute a user who has been blocked in the current channel. | `$unblock <user> [<reason>]` | None
 
