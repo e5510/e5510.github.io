@@ -42,6 +42,7 @@ skyblock | See SkyBlock news (profiles are a work in progress) | `$hypixel skybl
 player | Get a general overview of a player | `$hypixel <player>`
 guild | Get a general overview of a player's guild & members | `$hypixel <player> guild`
 friends | Get a general overview of a player's friends | `$hypixel <player> friends`
+skin | See a player's Minecraft skin (this command doesn't fit in any other category so it goes here) | `$skin <ign|UUID>`
 
 KSoft.Si COMMANDS
 =================
@@ -113,6 +114,7 @@ Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
 settings | Run through my setup process to configure a few settings | `$settings` | setup
 setlogs | Set a channel for logging | `$setlogs <channel>` | None
+desctiption | Set the description for the server that shows in Vanity URLs | `$description <desccription>` | desc
 modonly | Set channels to restrict commands for moderators | `$modonly [<**channels>]` | None
 adminonly | Set channels to restrict commands for admins | `$modonly [<**channels>]` | None
 
@@ -133,8 +135,8 @@ clearwarns | Clear a users warnings | `$clearwarns <user>` | clearwarnings
 clearwarn | Clear a single warning | `$clearwarn <case id>` | clearwarning
 modlogs | View moderation logs for a user | `$modlogs <user>` | None
 kick | Kick a user. | `$kick <user> [<reason>]` | yeet, 409
-block | Mute a user in the current channel. | `$block <user> [<reason>]` | None
-unblock | Unmute a user who has been blocked in the current channel. | `$unblock <user> [<reason>]` | None
+block | Mute a user/role in the current channel. | `$block <user|role> [<reason>]` | None
+unblock | Unmute a user/role who has been blocked in the current channel. | `$unblock <user|role> [<reason>]` | None
 
 INFO COMMANDS
 =================
