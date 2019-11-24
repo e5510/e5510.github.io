@@ -98,7 +98,7 @@ stop | Stop the player, disconnect and clear the queue. | `$stop` | None
 volume | Change the player volume. | `$volume <number: 1-100>` | vol
 queue | Retrieve a list of currently queued songs. | `$queue` | q, que
 shuffle | Shuffle the current queue. | `$shuffle` | mix
-repeat | Repeat the currently playing song. | `$repeat` | None
+repeat | Repeat the currently playing song. | `$repeat` | loop
 seteq | Pick from one of the equalizer presets to change your music. | `$seteq <Flat|Boost|Metal|Piano>` | None
 
 IMAGE GEN COMMANDS
