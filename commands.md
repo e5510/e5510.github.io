@@ -119,6 +119,9 @@ setlogs | Set a channel for logging | `$setlogs <channel>` | None
 desctiption | Set the description for the server that shows in Vanity URLs | `$description <desccription>` | desc
 modonly | Set channels to restrict commands for moderators | `$modonly [<**channels>]` | None
 adminonly | Set channels to restrict commands for admins | `$modonly [<**channels>]` | None
+joinmsg | Set the join message and a channel to send it in | `$joinmsg <channel> <message>` | None
+leavemsg | Set the leave message and a channel to send it in | `$leavemsg <channel> <message>` | None
+linkfilter | Enable different link filters. Run the command without arguments to see all filters | `$linkfilter <filters>` | None
 
 MODERATION COMMANDS
 =================
