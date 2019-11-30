@@ -195,3 +195,5 @@ addrank | Add a role that users can join through the rank command. | `$addrank <
 delrank | Remove a rank from the list of joinable roles. | `$delrank <role>`
 rank | List all available ranks and join a rank | `$rank [<rank>]`
 rolepersist | Add a role that will stay with the user, even if they leave and rejoin. | `$rolepersist <member> <role>`
+antiraid | Set a channel for raid alerts. These alerts allow you to ban raiders. | `$antiraid <channel>`
+raidmsg | Set a raid message. Any user who sends the message will be added to a list and send to your raid alerts channel. | `$raidmsg <message>`
