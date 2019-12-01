@@ -49,13 +49,13 @@ skin | See a player's Minecraft skin (this command doesn't fit in any other cate
 KSoft.Si COMMANDS
 =================
 
-Name | Description | Usage | Requirements
----- | ----------- | ----- | ------------
-meme | Get a random meme | `$meme [<subreddit>]` | None
-lyrics | Get the lyrics for a song (Provide a member to search for their current song on Spotify) | `$lyrics [<query|member>]` | None
-image | Get an image from a tag | `$image <tag>` | None
-imagetags | Get a list of tags (for the above command) | `$imagetags` | None
-baninfo | Get info about a ban on KSoft.Si | `$baninfo <user id>` | Be in the [KSoft.Si Discord](https://discord.gg/kEf6qXN)
+Name | Description | Usage
+---- | ----------- | -----
+meme | Get a random meme | `$meme [<subreddit>]`
+lyrics | Get the lyrics for a song (Provide a member to search for their current song on Spotify) | `$lyrics [<query|member>]`
+image | Get an image from a tag | `$image <tag>`
+imagetags | Get a list of tags (for the above command) | `$imagetags`
+baninfo | Get info about a ban on KSoft.Si | `$baninfo <user id>`
 
 SK1ER COMMANDS
 =================
@@ -175,6 +175,7 @@ snipe | Get the last deleted message | `$snipe [<channel|user>]`
 esnipe | Get the last edited message | `$esnipe [<channel|user>]`
 quote | Quote a message from an id or url | `$quote <message id|message url>`
 http.cat | Got a HTTP Error Code? My cat knows what it means. | `$http.cat <error code>`
+membercount | Shows the amount of members | `$membercount`
 avatar | Get a user's avatar | `$avatar [<user>]`
 fireav | Turns your avatar info the Fire logo | `$fireav [<user>]`
 tempmention | Make a role mentionable for 60 seconds or until you mention it | `$tempmention <role>`
