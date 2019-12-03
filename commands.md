@@ -170,7 +170,6 @@ UTILITY COMMANDS
 Name | Description | Usage
 ---- | ----------- | -----
 dstatus | Get Discord's status (Made with help from [ravy](https://ravy.xyz)) | `$dstatus`
-purge | Bulk delete messages | `$purge <amount> [<user>]`
 snipe | Get the last deleted message | `$snipe [<channel|user>]`
 esnipe | Get the last edited message | `$esnipe [<channel|user>]`
 quote | Quote a message from an id or url | `$quote <message id|message url>`
@@ -186,6 +185,28 @@ fetchuser | Find a user from their id (Returns JSON) | `$fetchuser <id>`
 fetchactivity | Get a member's activities (Returns JSON) | `$fetchactivity [<member>]`
 tts | Make Google TTS say something! | `$tts <text>`
 gassist | Talk to the Google Assistant | `$gassist <query>`
+
+PURGE COMMAND
+=================
+###### The purge command uses a flags system for arguments. For example, `$purge 10 --user Geek --match oof` would purge the last 10 messages from the user Geek if it contains oof
+
+##### Command
+
+Name | Description | Usage
+---- | ----------- | -----
+purge | Bulk delete messages | `$purge <amount> [<flags>]`
+
+##### Flags
+Name | Description | Usage
+---- | ----------- | -----
+user | Purge messages from this user | `--user <name|mention|id>`
+match | Purge messages containing a string | `--match <string>`
+startswith | Purge messages starting with a string | `--startswith <string>`
+endswith | Purge messages ending with a string | `--endswith <string>`
+attachments | Purge messages with attachments (true = with, false = without) | `--attachments <true|false>`
+bot | Purge messages from bots (true = bot, false = not bot) | `--bot <true|false>`
+invite | Purge messages containing invites (true = with invites, false = without invites) | `--invite <true|false>`
+text | Purge messages containing only text (true = only text, false = attachments, embeds etc.) | `--text <true|false>`
 
 PREMIUM COMMANDS
 =================
