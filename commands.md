@@ -44,7 +44,7 @@ skyblock | See SkyBlock news (profiles are a work in progress) | `$hypixel skybl
 player | Get a general overview of a player | `$hypixel <player>`
 guild | Get a general overview of a player's guild & members | `$hypixel <player> guild`
 friends | Get a general overview of a player's friends | `$hypixel <player> friends`
-skin | See a player's Minecraft skin (this command doesn't fit in any other category so it goes here) | `$skin <ign|UUID>`
+skin | See a player's Minecraft skin (this command doesn't fit in any other category so it goes here) | `$skin <ign\|UUID>`
 
 KSoft.Si COMMANDS
 =================
@@ -52,7 +52,7 @@ KSoft.Si COMMANDS
 Name | Description | Usage
 ---- | ----------- | -----
 meme | Get a random meme | `$meme [<subreddit>]`
-lyrics | Get the lyrics for a song (Provide a member to search for their current song on Spotify) | `$lyrics [<query|member>]`
+lyrics | Get the lyrics for a song (Provide a member to search for their current song on Spotify) | `$lyrics [<query\|member>]`
 image | Get an image from a tag | `$image <tag>`
 imagetags | Get a list of tags (for the above command) | `$imagetags`
 baninfo | Get info about a ban on KSoft.Si | `$baninfo <user id>`
@@ -81,7 +81,7 @@ YOUTUBE COMMANDS
 Name | Description | Usage
 ---- | ----------- | -----
 yt | Get the top 5 trending videos in the US | `$yt`
-yt info | Get a video's info from an ID or URL | `$yt info <id|url>`
+yt info | Get a video's info from an ID or URL | `$yt info <id\|url>`
 
 MUSIC COMMANDS
 =================
@@ -89,7 +89,7 @@ MUSIC COMMANDS
 Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
 connect | Connect to a voice channel | `$connect <channel>` | join
-play | Queue a song or playlist for playback. | `$play <search query|url>` | sing, p
+play | Queue a song or playlist for playback. | `$play <search query\|url>` | sing, p
 np | Sends the music controller message which contains various information about the current and upcoming songs. | `$np` | now_playing, current, currentsong
 pause | Pause the currently playing song. | `$pause` | None
 resume | Resume a currently paused song. | `$resume` | None
@@ -99,15 +99,15 @@ volume | Change the player volume. | `$volume <number: 1-100>` | vol
 queue | Retrieve a list of currently queued songs. | `$queue` | q, que
 shuffle | Shuffle the current queue. | `$shuffle` | mix
 repeat | Repeat the currently playing song. | `$repeat` | loop
-seteq | Pick from one of the equalizer presets to change your music. | `$seteq <Flat|Boost|Metal|Piano>` | None
+seteq | Pick from one of the equalizer presets to change your music. | `$seteq <Flat\|Boost\|Metal\|Piano>` | None
 
 IMAGE GEN COMMANDS
 =================
 
 Name | Description | Usage
 ---- | ----------- | -----
-makeameme | Make your own meme using the "top text, bottom text" format | `$makeameme <member|image url> <top text>|<bottom text>`
-deepfry | Deepfry an image or your avatar (your avatar is used if no argument is provided) | `$deepfry [<member|image url>]`
+makeameme | Make your own meme using the "top text, bottom text" format | `$makeameme <member\|image url> <top text>\|<bottom text>`
+deepfry | Deepfry an image or your avatar (your avatar is used if no argument is provided) | `$deepfry [<member\|image url>]`
 
 SETTINGS COMMANDS
 =================
@@ -121,7 +121,7 @@ modonly | Set channels to restrict commands for moderators | `$modonly [<**chann
 adminonly | Set channels to restrict commands for admins | `$modonly [<**channels>]` | None
 joinmsg | Set the join message and a channel to send it in | `$joinmsg <channel> <message>` | None
 leavemsg | Set the leave message and a channel to send it in | `$leavemsg <channel> <message>` | None
-linkfilter | Enable different link filters. Run the command without arguments to see all filters | `$linkfilter <filters>` | None
+linkfilter | Enable different link filters. Run the command without arguments to see all filters | `$linkfilter <**filters>` | None
 
 MODERATION COMMANDS
 =================
@@ -140,8 +140,8 @@ clearwarns | Clear a users warnings | `$clearwarns <user>` | clearwarnings
 clearwarn | Clear a single warning | `$clearwarn <case id>` | clearwarning
 modlogs | View moderation logs for a user | `$modlogs <user>` | None
 kick | Kick a user. | `$kick <user> [<reason>]` | yeet, 409
-block | Mute a user/role in the current channel. | `$block <user|role> [<reason>]` | None
-unblock | Unmute a user/role who has been blocked in the current channel. | `$unblock <user|role> [<reason>]` | None
+block | Mute a user/role in the current channel. | `$block <user\|role> [<reason>]` | None
+unblock | Unmute a user/role who has been blocked in the current channel. | `$unblock <user\|role> [<reason>]` | None
 
 INFO COMMANDS
 =================
@@ -170,17 +170,17 @@ UTILITY COMMANDS
 Name | Description | Usage
 ---- | ----------- | -----
 dstatus | Get Discord's status (Made with help from [ravy](https://ravy.xyz)) | `$dstatus`
-snipe | Get the last deleted message | `$snipe [<channel|user>]`
-esnipe | Get the last edited message | `$esnipe [<channel|user>]`
-quote | Quote a message from an id or url | `$quote <message id|message url>`
+snipe | Get the last deleted message | `$snipe [<channel\|user>]`
+esnipe | Get the last edited message | `$esnipe [<channel\|user>]`
+quote | Quote a message from an id or url | `$quote <message id\|message url>`
 http.cat | Got a HTTP Error Code? My cat knows what it means. | `$http.cat <error code>`
 membercount | Shows the amount of members | `$membercount`
 avatar | Get a user's avatar | `$avatar [<user>]`
 fireav | Turns your avatar info the Fire logo | `$fireav [<user>]`
 tempmention | Make a role mentionable for 60 seconds or until you mention it | `$tempmention <role>`
-vanityurl | Creates a vanity invite for your Discord using https://oh-my-god.wtf/ | `$vanityurl [<code>|"disable"]`
+vanityurl | Creates a vanity invite for your Discord using https://oh-my-god.wtf/ | `$vanityurl [<code>\|"disable"]`
 fetchchannel | Fetch a channel's info (Returns JSON) | `$fetchchannel <channel>`
-fetchmsg | Fetch a message from its id or link (Returns JSON) | `$fetchmsg <message id|message url>`
+fetchmsg | Fetch a message from its id or link (Returns JSON) | `$fetchmsg <message id\|message url>`
 fetchuser | Find a user from their id (Returns JSON) | `$fetchuser <id>`
 fetchactivity | Get a member's activities (Returns JSON) | `$fetchactivity [<member>]`
 tts | Make Google TTS say something! | `$tts <text>`
@@ -200,14 +200,14 @@ purge | Bulk delete messages | `$purge <amount> [<flags>]`
 
 Name | Description | Usage
 ---- | ----------- | -----
-user | Purge messages from this user | `--user <name|mention|id>`
+user | Purge messages from this user | `--user <name\|mention\|id>`
 match | Purge messages containing a string | `--match <string>`
 startswith | Purge messages starting with a string | `--startswith <string>`
 endswith | Purge messages ending with a string | `--endswith <string>`
-attachments | Purge messages with attachments (true = with, false = without) | `--attachments <true|false>`
-bot | Purge messages from bots (true = bot, false = not bot) | `--bot <true|false>`
-invite | Purge messages containing invites (true = with invites, false = without invites) | `--invite <true|false>`
-text | Purge messages containing only text (true = only text, false = attachments, embeds etc.) | `--text <true|false>`
+attachments | Purge messages with attachments (true = with, false = without) | `--attachments <true\|false>`
+bot | Purge messages from bots (true = bot, false = not bot) | `--bot <true\|false>`
+invite | Purge messages containing invites (true = with invites, false = without invites) | `--invite <true\|false>`
+text | Purge messages containing only text (true = only text, false = attachments, embeds etc.) | `--text <true\|false>`
 
 PREMIUM COMMANDS
 =================
@@ -215,8 +215,7 @@ PREMIUM COMMANDS
 
 Name | Description | Usage
 ---- | ----------- | -----
-autorole | Automatically add a role to a user when they join | `$autorole [<role name/id/mention>]` Use command without role argument to disable
-reactrole | Automatically add a role to a user when they react to a message | `$autorole [<role name/id/mention> <message id> <emote>]` Use command without arguments to disable
+autorole | Automatically add a role to a user when they join | `$autorole [<role name\|id\|mention>]` Use command without role argument to disable
 addrank | Add a role that users can join through the rank command. | `$addrank <role>`
 delrank | Remove a rank from the list of joinable roles. | `$delrank <role>`
 rank | List all available ranks and join a rank | `$rank [<rank>]`
