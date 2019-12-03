@@ -197,6 +197,7 @@ Name | Description | Usage
 purge | Bulk delete messages | `$purge <amount> [<flags>]`
 
 ##### Flags
+
 Name | Description | Usage
 ---- | ----------- | -----
 user | Purge messages from this user | `--user <name|mention|id>`
