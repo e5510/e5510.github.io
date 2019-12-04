@@ -202,7 +202,9 @@ purge | Bulk delete messages | `$purge <amount> [<flags>]`
 Name | Description | Usage
 ---- | ----------- | -----
 user | Purge messages from this user | `--user <name/mention/id>`
+channel | Purge messages in this channel | `--channel <name/mention/id>`
 match | Purge messages containing a string | `--match <string>`
+nomatch | Purge messages that do not contain a string | `--nomatch <string>`
 startswith | Purge messages starting with a string | `--startswith <string>`
 endswith | Purge messages ending with a string | `--endswith <string>`
 attachments | Purge messages with attachments (true = with, false = without) | `--attachments <true/false>`
