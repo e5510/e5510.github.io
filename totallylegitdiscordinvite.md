@@ -2,8 +2,8 @@
 layout: redirect
 ogpTitle: Join the Fire Discord Server!
 ogpUrl: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-ogpDescription: Check out the Geek's Discord community on Discord and enjoy free voice and text chat.
+ogpDescription: Check out the Fire community on Discord and enjoy free voice and text chat.
 ogpSitename: Discord
-ogpImage: https://cdn.discordapp.com/icons/564052798044504084/a70edbe6c2e6f330526b78880856aaae.jpg?size=512
+ogpImage: https://cdn.discordapp.com/icons/564052798044504084/5636cfde738971405e9d43201806d06c.png?size=1024
 ogpTheme: 7289DA
 ---
