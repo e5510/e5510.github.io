@@ -1,6 +1,7 @@
 ---
 layout: redirect
 ogpTitle: Join the Fire Discord Server!
+ogpCardType: summary
 ogpUrl: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ogpDescription: Check out the Fire community on Discord and enjoy free voice and text chat.
 ogpSitename: Discord

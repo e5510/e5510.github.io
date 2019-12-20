@@ -1,6 +1,7 @@
 ---
 layout: redirect
 ogpTitle: Join the Fire Discord Server!
+ogpCardType: summary
 ogpUrl: https://discordapp.com/invite/mKDWeSA
 ogpDescription: Check out the Fire community on Discord and enjoy free voice and text chat.
 ogpSitename: Discord
