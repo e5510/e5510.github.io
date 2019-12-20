@@ -1,6 +1,6 @@
 ---
 layout: article_fire
-title: Fire - Commands List
+title: Fire - Commands
 mode: default
 header:
   theme: dark
