@@ -130,6 +130,7 @@ adminonly | Set channels to restrict commands for admins | `$modonly [<**channel
 joinmsg | Set the join message and a channel to send it in | `$joinmsg <channel> <message>` | None
 leavemsg | Set the leave message and a channel to send it in | `$leavemsg <channel> <message>` | None
 linkfilter | Enable different link filters. Run the command without arguments to see all filters | `$linkfilter <**filters>` | None
+filterexcl | Exclude channels/roles/members from the filters | `$filterexcl <**channel/role/member>` | None
 command | Enable/disable a command in your server | `$command <command>` | None
 
 MODERATION COMMANDS
