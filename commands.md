@@ -44,7 +44,14 @@ skyblock | See SkyBlock news (profiles are a work in progress) | `$hypixel skybl
 player | Get a general overview of a player | `$hypixel <player>`
 guild | Get a general overview of a player's guild & members | `$hypixel <player> guild`
 friends | Get a general overview of a player's friends | `$hypixel <player> friends`
-skin | See a player's Minecraft skin (this command doesn't fit in any other category so it goes here) | `$skin <ign/UUID>`
+
+MINECRAFT COMMANDS
+=================
+
+Name | Description | Usage
+---- | ----------- | -----
+skin | See a player's Minecraft skin | `$skin <ign/UUID>`
+mcstatus | Check the status of Minecraft services | `$mcstatus`
 
 KSoft.Si COMMANDS
 =================
@@ -63,6 +70,7 @@ SK1ER COMMANDS
 Name | Description | Usage
 ---- | ----------- | -----
 levelhead | Get a player's levelhead info | `$levelhead <player>`
+modcore | Get a player's modcore profile | `$modcore <player>`
 
 HYPERIUM COMMANDS
 =================
@@ -143,6 +151,7 @@ modlogs | View moderation logs for a user | `$modlogs <user>` | None
 kick | Kick a user. | `$kick <user> [<reason>]` | yeet, 409
 block | Mute a user/role in the current channel. | `$block <user/role> [<reason>]` | None
 unblock | Unmute a user/role who has been blocked in the current channel. | `$unblock <user/role> [<reason>]` | None
+derank | Remove all roles from a user (The role must be below Fire's highest role to be removed) | `$derank <user> [<reason>]` | dethrone 
 
 INFO COMMANDS
 =================
