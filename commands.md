@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: article_fire
 title: Fire - Commands List
 mode: default
 header:
