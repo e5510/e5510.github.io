@@ -57,11 +57,11 @@ You need to have `Ban Members` to make the decision
 
 See what invite a user used when they joined.
 
-![discord.gg/mKDWeSA](https://i.imgur.com/2Dti5Lh.png)
+![discord.gg/mKDWeSA](https://i.imgur.com/KhbwM3o.png)
 
 If the user either 1. hasn't joined using an invite or 2. the invite is unknown, it will suggest lurking/server discovery if applicable (Lurking requires a public guild)
 
-![hey that's pretty cool](https://i.imgur.com/wY5oWCf.png) 
+![hey that's pretty cool](https://i.imgur.com/0DHdEBw.png) 
 
 __Note: Due to Discord not actually giving this information, it may not always be correct but has shown a high success rate when finding the used invite.__
 
