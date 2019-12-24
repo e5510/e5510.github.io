@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: article_fire
 title: Fire Premium
 category: Fire
 ---
@@ -28,7 +28,9 @@ Autorole allows you to set a role that users will recieve upon joining your serv
 Ranks are roles that anyone can join by typing a command. The roles users can join are from a list of roles you add.
 
 > `$rank [<rank name>]` - List ranks or join a rank if a rank name is provided
+
 > `$addrank <role>` - Add a rank that users can join (Requires `Manage Roles`)
+
 > `$delrank <role>` - Remove a rank (Requires `Manage Roles`)
 
 **Role Persist**
@@ -42,6 +44,7 @@ Role Perist allows you to give a user a role and ~~shove it down their throat~~ 
 Fire's anti raid features should protect your server from raids and remove the stress from moderators trying to individually ban users
 
 > `$antiraid <channel>` - Set the channel where raid alerts will be sent
+
 > `$raidmsg <message>` - Set a "raid message". Any user found saying this message in the next 5 minutes will be added to a list. After the 5 minutes, the list of users will be sent to your raid alerts channel and you can choose to ban or not using the reactions
 
 Fire will automatically detect raids with 50 users or more. A message will be sent to your raid alerts channel where you can decide whether to ban or not.
