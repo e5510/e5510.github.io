@@ -69,6 +69,10 @@ __Note: Due to Discord not actually giving this information, it may not always b
 
 With premium, you will be able to see the statistics of your server's vanity url created by Fire (`$vanityurl`). Stats are tracked for all servers but you need premium to view them
 
+**Exclusive Vanity URL Domain**
+
+Alongside the usual `oh-my-god.wtf` domain, premium users are able to use `inv.wtf` for their Vanity URLs, e.g. `https://inv.wtf/fire`
+
 **Priority Support**
 
 If you're having issues with Fire and ask in the [#help](https://canary.discordapp.com/channels/564052798044504084/564067823014641664) channel in Fire's discord, you will get faster support (It sends a notification to my phone lmao)
