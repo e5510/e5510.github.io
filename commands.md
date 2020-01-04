@@ -6,7 +6,7 @@ title: Fire - Commands
 ##### All of these examples use the default prefix, `$`
 
 ## MAIN COMMANDS
-================
+
 
 Name | Description | Usage | Aliases
 ---- | ----------- | ----- | -------
