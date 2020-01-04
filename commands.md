@@ -1,16 +1,6 @@
 ---
 layout: article_fire
 title: Fire - Commands
-mode: default
-header:
-  theme: dark
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#FF5A00'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(255,83,0,0.4), rgba(255,147,0,0.4))'
-    src: /assets/firecover.png
 ---
 
 ##### All of these examples use the default prefix, `$`
