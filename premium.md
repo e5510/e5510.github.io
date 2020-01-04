@@ -3,6 +3,8 @@ layout: article_fire
 title: Fire Premium
 ---
 
+# Premium
+
 ## What is Premium?
 
 Premium is an extension to Fire that gives extra features in return for donations. These donations help me pay the bills to keep Fire up and running.
