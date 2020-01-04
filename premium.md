@@ -1,5 +1,6 @@
 ---
 layout: article_fire
+title: Fire Premium
 ---
 
 ## What is Premium?
