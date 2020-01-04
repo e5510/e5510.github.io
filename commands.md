@@ -231,5 +231,5 @@ description: >-
 | rolepersist | Add a role that will stay with the user, even if they leave and rejoin. | `$rolepersist <member> <role>` |
 | antiraid | Set a channel for raid alerts. These alerts allow you to ban raiders. | `$antiraid <channel>` |
 | raidmsg | Set a raid message. Any user who sends the message will be added to a list and send to your raid alerts channel. | `$raidmsg <message>` |
-| redirect | Create a redirect to ny website using inv.wtf, e.g. inv.wtf/fire. Use `$redirect <slug> delete` to delete the redirect. `` | `$redirect <slug> <url>` |
+| redirect | Create a redirect to ny website using inv.wtf, e.g. inv.wtf/fire. Use `$redirect <slug> delete` to delete the redirect. | `$redirect <slug> <url>` |
 
