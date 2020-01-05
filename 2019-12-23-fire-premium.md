@@ -1,6 +1,10 @@
 ---
 layout: article_fire
 title: Fire Premium
+category: Fire
+description: >-
+  What is Premium? What does it give? How do I get it? How much does it cost?
+  All your questions (hopefully) and more will be answered!
 ---
 
 # Premium
