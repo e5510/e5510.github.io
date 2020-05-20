@@ -23,6 +23,15 @@ Autorole allows you to set a role that users will recieve upon joining your serv
 
 \(Use the command without role argument to disable\)
 
+**Invite Roles**
+
+Invite roles allow you to automatically give users a role depending on what invite they used to join. You can enable/disable it with the following command
+
+> `$invrole <invite> <role>`
+
+\(To disable use the command again with the same invite and same role. For invite, use the code itself or discord.gg url\)
+ 
+
 **Ranks**
 
 Ranks are roles that anyone can join by typing a command. The roles users can join are from a list of roles you add.
