@@ -78,17 +78,13 @@ If the user either 1. hasn't joined using an invite or 2. the invite is unknown,
 
 With premium, you will be able to see the statistics of your server's vanity url created by Fire \(`$vanityurl`\). Stats are tracked for all servers but you need premium to view them
 
-**Exclusive Vanity URL Domain**
-
-Alongside the usual `oh-my-god.wtf` domain, premium users are able to use `inv.wtf` for their Vanity URLs, e.g. `https://inv.wtf/geek`
-
 **Custom Redirects**
 
-Using the same `inv.wtf` domain, you can create redirects to other websites, e.g. `https://inv.wtf/fire` redirecting to Fire's invite
+Using the same `inv.wtf` domain as vanity urls, you can create redirects to other websites, e.g. `https://inv.wtf/fire` redirecting to Fire's invite
 
 **Priority Support**
 
-If you're having issues with Fire and ask in the [\#help](https://canary.discordapp.com/channels/564052798044504084/564067823014641664) channel in Fire's discord, you will get faster support \(It sends a notification to my phone lmao\)
+If you're having issues with Fire and ask in the [\#premium-chat](https://canary.discordapp.com/channels/564052798044504084/585210826319855634) channel in Fire's discord, you will get faster support \(It sends a notification to my phone lmao\)
 
 **Priority Suggestions**
 
