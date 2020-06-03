@@ -48,18 +48,6 @@ Role Perist allows you to give a user a role and ~~shove it down their throat~~ 
 
 > `$rolepersist <member> <role>` - Give a member a role that is persistant
 
-**Anti Raid**
-
-Fire's anti raid features should protect your server from raids and remove the stress from moderators trying to individually ban users
-
-> `$antiraid <channel>` - Set the channel where raid alerts will be sent
->
-> `$raidmsg <message>` - Set a "raid message". Any user found saying this message in the next 5 minutes will be added to a list. After the 5 minutes, the list of users will be sent to your raid alerts channel and you can choose to ban or not using the reactions
-
-Fire will automatically detect raids with 50 users or more. A message will be sent to your raid alerts channel where you can decide whether to ban or not.
-
-You need to have `Ban Members` to make the decision
-
 ### Other features
 
 **Used Invite**
