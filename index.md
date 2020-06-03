@@ -14,33 +14,36 @@ article_header:
 ---
 
 ```python
-from jekyll import Blog
-from githubpages import Pages
+from jekyll import Blog  # yes i am aware jekyll is not python but shush
+from github import Pages
 from site.pages, import root, commands
+from site.utils import redirect
+
+pages = Pages()
 
 class Website():
   def __init__(self):
     self.hostname = 'gaminggeek.dev' #.dev is the best TLD
     self.protocol = 'https'
     self.blog = Blog()
-    self.pages = Pages()
+    self.pages = pages
 
-  @self.pages('/')
+  @pages('/')
   def rootpage(self):
     return root
 
-  @self.pages('/blog')
+  @pages('/blog')
   def blogpage(self):
     return self.blog
 
-  @self.pages('/commands')
+  @pages('/commands')
   def cmdspage(self):
-    return commands
+    return redirect('https://fire.gaminggeek.dev/commands')
 ```
 
 ## Who Am I
 
-Hey, I'm Jake o/ I'm an 18 year old student and Python developer (if you couldn't already tell from the *extremely fake* Python snippet above) from Ireland.
+Hey, I'm Jake o/ I'm an 18 year old Python developer (if you couldn't already tell from the *extremely fake* Python snippet above) from Ireland.
 
 ## Projects
 
