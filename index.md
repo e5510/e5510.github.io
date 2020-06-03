@@ -40,7 +40,7 @@ class Website():
 
 ## Who Am I
 
-Hey, I'm Jake o/ I'm a 17 year old student and Python developer (if you couldn't already tell from the fake Python snippet above) from Ireland.
+Hey, I'm Jake o/ I'm an 18 year old student and Python developer (if you couldn't already tell from the *extremely fake* Python snippet above) from Ireland.
 
 ## Projects
 
@@ -48,6 +48,6 @@ I've worked on quite a few projects in the past. Here's a few...
 
 Name | Description
 -----| ----------
-Fire (Active) |  A Discord bot for all! With many features such as music, moderation and even Google Assistant, Fire is the only bot you need. [Website](https://fire.gaminggeek.dev/)
-YouTube (Semi-Active) | My YouTube channel consists of a wide variety of content... Just kidding! It's mostly Minecraft (as that's the only game I play) but I'm starting to upload a bit more coding content too [Check it out](https://youtube.com/GamingGeek)
+Fire (Active) |  A Discord bot for all! With many features such as utilites, moderation and even Google Assistant, Fire is the only bot you need. [Website](https://fire.gaminggeek.dev/)
+YouTube (Inactive) | My YouTube channel consists of a wide variety of content... Just kidding! It's mostly Minecraft (as that's the only game I play) but I'm starting to upload a bit more coding content too [Check it out](https://youtube.com/GamingGeek)
 SpectralMC (Gone but not forgotten) | SpectralMC was my Minecraft server I used to work on hoping it would be the **next big thing** but I never really released it. I just had a "beta" period. It was at this time that I used [Skript](https://github.com/SkriptLang/Skript) to "code" plugins
