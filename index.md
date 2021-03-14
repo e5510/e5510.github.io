@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Jake Ward - Python developer
+title: Void- Just another person on the internet.
 mode: immersive
 header:
   theme: dark
@@ -43,14 +43,11 @@ class Website():
 
 ## Who Am I
 
-Hey, I'm Jake o/ I'm an 18 year old Python developer (if you couldn't already tell from the *extremely fake* Python snippet above) from Ireland.
-
+Hey, I'm Void, just another person on the internet
 ## Projects
 
-I've worked on quite a few projects in the past. Here's a few...
+I don't have very many projects, however heres a few.
 
 Name | Description
 -----| ----------
-Fire (Active) |  A Discord bot for all! With many features such as utilites, moderation and even Google Assistant, Fire is the only bot you need. [Website](https://fire.gaminggeek.dev/)
-YouTube (Inactive) | My YouTube channel consists of a wide variety of content... Just kidding! It's mostly Minecraft (as that's the only game I play) but I'm starting to upload a bit more coding content too [Check it out](https://youtube.com/GamingGeek)
-SpectralMC (Gone but not forgotten) | SpectralMC was my Minecraft server I used to work on hoping it would be the **next big thing** but I never really released it. I just had a "beta" period. It was at this time that I used [Skript](https://github.com/SkriptLang/Skript) to "code" plugins
+Placeholder |  Placeholder Description [Website](LINK)
