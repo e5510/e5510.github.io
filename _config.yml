@@ -18,14 +18,14 @@
 ##############################
 text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://gaminggeek.dev # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://e5510.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Void
 description: > # this means to ignore newlines until "Language & timezone"
-  Hey! My names Jake and I'm 17 years old. 
-  I am a developer and gamer (well, I only play Minecraft :P)
+  Hey! I'm void.
+  Gamer and hobbyist (well, grammar and non-code prs-)
   I have worked on a few projects on the past but right now,
-  my main focus is my Discord bot, Fire
+  my main focus is supporting discord bots.
 
 
 ## => Language and Timezone
