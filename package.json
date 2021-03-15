@@ -51,7 +51,7 @@
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.14.2"
+    "stylelint-scss": "^3.14.2",
     "kramdown-parser-gfm": "1.10"
   },
   "husky": {
