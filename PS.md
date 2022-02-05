@@ -1,4 +1,4 @@
 ---
 layout: redirect
-ogpUrl: https://countr.xyz/support
+ogpUrl: https://promise.solutions/support
 ---
