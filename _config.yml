@@ -22,10 +22,12 @@ url     : https://e5510.github.io # the base hostname & protocol for your site e
 baseurl : # does not include hostname
 title   : Void
 description: > # this means to ignore newlines until "Language & timezone"
-  Hey! I'm void.
-  Gamer and hobbyist (well, grammar and non-code prs-)
-  I have worked on a few projects on the past but right now,
-  my main focus is supporting discord bots.
+  Hey! I'm void. 
+  I mostly exist. 
+  I primarily read Space Opera and the occasional Urban Fantasy books.
+  Somewhat involved  in technical theatre ( stagehand,(wip) stage manager, (wip) lightboard op)
+  
+  
 
 
 ## => Language and Timezone
@@ -39,12 +41,12 @@ timezone: Etc/GMT+4 # see https://en.wikipedia.org/wiki/List_of_tz_database_time
 author:
   type      : # "person" (default), "organization"
   name      : Void
-  url       : https://gaminggeek.dev/
+  url       : https://e5510.pages.dev/
   avatar    : /assets/avatar.png # path or url of avatar image (square)
   bio       : Placeholder
   email     : void@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : GamingGeekHD # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  twitter   :  # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
