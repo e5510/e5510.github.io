@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Void- Just another person on the internet.
+title: Void
 mode: immersive
 header:
   theme: dark
@@ -16,10 +16,9 @@ article_header:
 
 ## Who Am I
 
-Hey, I'm Void, just another person on the internet
-## Projects
+Hey, I'm Void, 
 
-I don't have very many projects, however heres a few.
+I don't have a huge presence online or otherwise.
 
 Name | Description
 -----| ----------
