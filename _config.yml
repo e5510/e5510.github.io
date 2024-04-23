@@ -18,14 +18,12 @@
 ##############################
 text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : https://e5510.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
+url     : https://lacuna.dev # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Void
+title   : Lacuna
 description: > # this means to ignore newlines until "Language & timezone"
-  Hey! I'm void. 
-  I mostly exist. 
-  I primarily read Space Opera and the occasional Urban Fantasy books.
-  Somewhat involved  in technical theatre ( stagehand,(wip) stage manager, (wip) lightboard op)
+  Hey! I'm Lacuna. 
+  I occasionally exist. 
   
   
 
@@ -40,11 +38,11 @@ timezone: Etc/GMT+4 # see https://en.wikipedia.org/wiki/List_of_tz_database_time
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Void
-  url       : https://e5510.pages.dev/
+  name      : Lacunq
+  url       : https://lacuna.dev/
   avatar    : /assets/avatar.png # path or url of avatar image (square)
   bio       : Placeholder
-  email     : void@gmail.com
+  email     : me@lacuna.dev
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   :  # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -54,7 +52,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : e5510 # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : lacuna-exe # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
