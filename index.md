@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Void
+title: Lacuna
 mode: immersive
 header:
   theme: dark
@@ -16,9 +16,9 @@ article_header:
 
 ## Who Am I
 
-Hey, I'm Void, 
+Hey, I'm Lacuna, 
 
-I don't have a huge presence online or otherwise.
+I don't have a huge presence online or otherwise. (note; this page has been updated to say Lacuna rather than void but otherwise this site is incredibly outdated and many links are dead)
 
 Name | Description
 -----| ----------
