@@ -31,14 +31,14 @@ description: > # this means to ignore newlines until "Language & timezone"
 ## => Language and Timezone
 ##############################
 lang: # the language of your site, default as "en"
-timezone: Etc/GMT+4 # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: EST/GMT+4 # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Lacunq
+  name      : Lacuna
   url       : https://lacuna.dev/
   avatar    : /assets/avatar.png # path or url of avatar image (square)
   bio       : Placeholder
@@ -58,7 +58,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository:  e5510/gaminggeek.github.io 
+repository:  lacuna-exe/lacuna-exe.github.io
 repository_tree: master
 
 
